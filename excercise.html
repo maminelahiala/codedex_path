@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- CSS Style -->
+    <link rel="stylesheet" href="src/css/menu.css">
+    <link rel="stylesheet" href="src/css/footer.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/alert_box.css">
+    <!-- CDN for icons from RemixIcon-->
+    <link
+            href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+            rel="stylesheet"
+    />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="https://www.codedex.io/images/favicon.png" type="image/x-icon">
+    <title>Quiz Personality Test</title>
+</head>
+<body>
+<!-- Menu -->
+<header id="menu_js">
+</header>
+<!-- Quizz -->
+<div id="quiz-container">
+    <h2>Which Type of Dev Are you?</h2>
+    <div id="question-container">
+        <p id="question"></p>
+    </div>
+    <div id="answer-container">
+        <div class="answer">
+            <button class="answer-btn" onclick="selectAnswer(0)"><img src="image1.jpg" alt="Image 1"></button>
+            <button class="answer-btn" onclick="selectAnswer(1)"><img src="image2.jpg" alt="Image 2"></button>
+        </div>
+    </div>
+    <div id="result-container">
+        <h3>Result</h3>
+        <p id="result"></p>
+    </div>
+</div>
+<!-- Footer -->
+<footer id="footer_js">
+
+</footer>
+<!-- JAVASCRIPT -->
+<script src="src/js/menu.js"></script>
+<script src="src/js/script.js"></script>
+</body>
+</html>

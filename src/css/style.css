@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
 * {
     color: #FFFFFFDE;
 }
@@ -35,4 +36,57 @@ button {
 }
 button:hover {
     background-color: #1d92df;
+}
+h1, h2, h3, h4 {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+/* For Quiz */
+#quiz-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.answer-btn {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#result-container {
+    display: none;
+}
+
+.answer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+.answer-btn img {
+    width: 200px; /* Set the width of the images */
+    height: 200px; /* Set the height of the images */
+}
+/* for results */
+article {
+    margin: 50px 25px;
+}
+article h3 {
+    margin-left: 50px;
+    margin-bottom: 25px;
+}
+section h2 {
+    margin-left: 50px;
+    margin-bottom: 25px;
+}
+article p {
+    max-width: 50%;
+}
+.golearn {
+    margin-top: 20px;
+    margin-left: 50%;
+}
+section a i {
+    font-size: 50px;
 }
