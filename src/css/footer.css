@@ -1,0 +1,29 @@
+footer {
+    margin-top: 20px;
+}
+footer > div {
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background-color: rgb(33, 37, 41);
+    backdrop-filter: blur(10px);
+}
+footer > div > table {
+    color: #FFFFFFDE;
+    width: 100%;
+    text-align: left;
+}
+
+.signature {
+    height: 5rem;
+    color: #FFFFFFDE;
+    text-align: center;
+}
+.signature a {
+    height: 5rem;
+    color: #FFFFFFDE;
+    text-decoration: none;
+}
+.signature a:hover {
+    font-weight: bold;
+}

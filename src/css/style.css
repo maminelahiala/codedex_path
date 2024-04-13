@@ -1,94 +1,38 @@
-/*========= BASE ==========*/
 * {
-    margin: 0;
-    padding: 0;
+    color: #FFFFFFDE;
 }
-body {
-    min-height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    font-family: "HelveticaNeue-Light", "HelveticaNeue-Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+section {
+    margin: 100px auto;
 }
-/*== NAVIGATION / MENU==*/
-/*= Base menu =*/
-nav {
-    background-color: rgba(255, 255, 255, 0);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.main_title {
+    text-align: center;
+    font-size: 4rem;
 }
-nav ul {
-    width: 100%;
-    list-style: none;
+.second_title {
+    text-align: center;
+}
+.explanation {
+    text-align: center;
+}
+div.container-ctr {
+    margin: 10px auto;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    justify-content: center; /* Center horizontally */
 }
-nav li {
-    height: 50px;
-}
-nav a i{
-    height: 100%;
-    padding-bottom: 5px;
-    padding-right: 5px;
-    text-decoration: none;
-    display: flex;
+button {
+    background-color: #209cee;
+    color: #fff;
+    font-size: larger;
+    top: 93%;
+    width: 226px;
+    border: none;
+    display: block;
+    padding: 6px 8px;
+    margin: 4px;
+    text-align: center;
     align-items: center;
-    color: black;
     font-weight: bold;
 }
-nav a {
-    height: 100%;
-    padding: 0 30px;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    color: black;
-    font-weight: bold;
-}
-nav a:hover {
-    background-color: transparent;
-    color: black;
-}
-nav li:first-child {
-    margin-right: auto;
-}
-/*= Side Bar=*/
-.sidebar {
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 100vh;
-    width: 250px;
-    z-index: 999;
-    background-color: rgba(255, 255, 255, 0);
-    backdrop-filter: blur(10px);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    display: none; /**/
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-}
-.svg__height {
-    font-size: 25px;
-    padding: 0 20px;
-}
-.sidebar li, .sidebar a {
-    width: 100%;
-}
-/*=== Responsive ===*/
-.menu-btn {
-    display: none;
-}
-@media (max-width: 800px) {
-    .hideOnMobile {
-        display: none;
-    }
-    .menu-btn {
-        display: block;
-    }
-}
-@media (max-width: 400px) {
-    .sidebar{
-        width: 100%;
-    }
+button:hover {
+    background-color: #1d92df;
 }

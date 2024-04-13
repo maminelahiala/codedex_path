@@ -1,10 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="EN">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- CSS Style -->
+    <link rel="stylesheet" href="src/css/menu.css">
+    <link rel="stylesheet" href="src/css/footer.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/alert_box.css">
+    <!-- CDN for icons from RemixIcon-->
+    <link
+            href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+            rel="stylesheet"
+    />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="https://www.codedex.io/images/favicon.png" type="image/x-icon">
+    <title>Quiz Personality Test</title>
 </head>
 <body>
+<!-- Menu -->
+<header id="menu_js">
+</header>
+<section>
+    <h1 class="main_title">
+        Take the Quiz!
+    </h1>
+</section>
+<section>
+    <h2 class="second_title">Ready?</h2>
+    <p class="explanation">This quiz will help you choose which path you need to take in your learning adventure</p>
+    <div class="container-ctr">
+        <button type="submit" onclick=donThink_open()>Go!</button>
+    </div>
+</section>
+<section>
+    <div class="alertbox">
+        <div class="popup" id="popup">
+            <h2>You Must Know!</h2>
+            <p>You shall answer as fast as you think!</p>
+            <form>
+                <button type="button" onclick=location.href='excercise.html' class="alrt-btn">OK</button>
+            </form>
 
+        </div>
+    </div>
+</section>
+<!-- Footer -->
+<footer id="footer_js">
+
+</footer>
+<!-- JAVASCRIPT -->
+<script src="src/js/menu.js"></script>
+<script src="src/js/script.js"></script>
 </body>
 </html>
