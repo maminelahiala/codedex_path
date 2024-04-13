@@ -49,9 +49,10 @@ document.getElementById('footer_js').innerHTML = '   ' +
     '                <th>Links</th>\n' +
     '            </tr>\n' +
     '            <tr>\n' +
-    '                <td class="tb_f_left">Description</td>\n' +
-    '                <td>Description</td>\n' +
-    '                <td>Description</td>\n' +
+    '                <td class="tb_f_left">Catch all the programming languages!' +
+    '</td>\n' +
+    '                <td><a href="https://www.codedex.io/">Codédex (reel one)</a></td>\n' +
+    '                <td><a href="https://www.codedex.io/community/monthly-challenge/submission/GXgsmhFlzmRrMWL5kUum">Community Page</a></td>\n' +
     '            </tr>\n' +
     '            <tr>\n' +
     '                <td colspan="3" class="signature">Made by <a href="https://github.com/maminelahiala">Mohamed Amine Lahiala</a> for <a href="https://www.codedex.io/">Codédex</a></td>\n' +
