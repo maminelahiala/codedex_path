@@ -54,7 +54,7 @@ document.getElementById('footer_js').innerHTML = '   ' +
     '                <td>Description</td>\n' +
     '            </tr>\n' +
     '            <tr>\n' +
-    '                <td colspan="3" class="signature">Made by <a href="#">Mohamed Amine Lahiala</a> for <a href="#">Codédex</a></td>\n' +
+    '                <td colspan="3" class="signature">Made by <a href="https://github.com/maminelahiala">Mohamed Amine Lahiala</a> for <a href="https://www.codedex.io/">Codédex</a></td>\n' +
     '            </tr>\n' +
     '\n' +
     '        </table>\n' +

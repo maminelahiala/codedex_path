@@ -42,6 +42,12 @@ h1, h2, h3, h4 {
     font-optical-sizing: auto;
     font-style: normal;
 }
+/* for Index*/
+article.container, article.container > p {
+    max-width: 100%;
+    margin: 0 25%;
+    text-align: justify;
+}
 /* For Quiz */
 #quiz-container {
     max-width: 700px;
